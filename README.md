@@ -18,3 +18,7 @@ inversão de dependencia é quando uma classe controlador utiliza ma interface e
 herança: cachorro e gato são herdam a classe animal, mas o cachorro é diferente de gato e vice-versa
 
 se tiverem 2 soluções, uma utilizando herança e a outra composição, normalmente a solução po
+
+uma classe deveria evitar ser alterada, mas ainda poderia ser expandida
+
+liskov: o código dos filhos devem ser compatíveis com o dos pais para que em caso de serem substituídos se manterem funcionando
