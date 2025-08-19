@@ -22,3 +22,5 @@ se tiverem 2 soluções, uma utilizando herança e a outra composição, normalm
 uma classe deveria evitar ser alterada, mas ainda poderia ser expandida
 
 liskov: o código dos filhos devem ser compatíveis com o dos pais para que em caso de serem substituídos se manterem funcionando
+
+static instance é tipo uma variavel global
