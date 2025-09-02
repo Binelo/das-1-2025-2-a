@@ -32,3 +32,8 @@ static instance é tipo uma variavel global
 - Precisa saber lidar com seres humanos, motivar, inspirar, gerir
 - Entender a estrutura hierárquica da empresa e negociar sobre o tempo e funcionalidades do projeto, decisões políticas
 - DevOPs, uma maneira de entregar valor/funcionalidade ao cliente mais rapidamente. Todo mundo é responsável pelo sistema e participa de todas as etapas, se o sistema cair, todo mundo tem parte nisso e deve trabalhar junto para consertar
+
+## Aula 02/09
+A Principal diferença entre um arquiteto e um desenvolvedor, seria que o foco do desenvolvedor é profundidade e o foco do arquiteto é amplitude, ou seja, o desenvolvedor vai se especializar muito mais em partes específicas da area, enquanto o arquiteto vai tentar entender.
+Para o arquiteto, é mais importante o meio e o topo da pirâmide, que representa mais a amplitude técnica, é melhor saber 5 formas de resolver um problema, do que ser especialista em apenas uma forma.
+É importante que, ao transicionar de desenvolvedor para arquiteto os desenvolvedores precisam mudar a sua visão de aquisição de conhecimento, equilibrando o portfólio de conhecimento em relação à profundidade
