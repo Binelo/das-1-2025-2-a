@@ -1,6 +1,6 @@
 # das-1-2025-2-a
 
-Aula 1 - 04/08/25
+## Aula 04/08
 
 Principios de projeto de software - Capítulo 5
 
@@ -24,3 +24,7 @@ uma classe deveria evitar ser alterada, mas ainda poderia ser expandida
 liskov: o código dos filhos devem ser compatíveis com o dos pais para que em caso de serem substituídos se manterem funcionando
 
 static instance é tipo uma variavel global
+
+## Aula 01/09
+- Um arquiteto de software deve manterse atualizado com as tendências, não precisa saber tudo, mas tem que estar ligado
+- 
