@@ -37,3 +37,8 @@ static instance é tipo uma variavel global
 A Principal diferença entre um arquiteto e um desenvolvedor, seria que o foco do desenvolvedor é profundidade e o foco do arquiteto é amplitude, ou seja, o desenvolvedor vai se especializar muito mais em partes específicas da area, enquanto o arquiteto vai tentar entender.
 Para o arquiteto, é mais importante o meio e o topo da pirâmide, que representa mais a amplitude técnica, é melhor saber 5 formas de resolver um problema, do que ser especialista em apenas uma forma.
 É importante que, ao transicionar de desenvolvedor para arquiteto os desenvolvedores precisam mudar a sua visão de aquisição de conhecimento, equilibrando o portfólio de conhecimento em relação à profundidade
+
+## 08/09
+#compensações / trade-off
+-Tópicos: grupo da familia do zap, tipo um observer, sistema distribuído, 1 para muitos, broker de msg
+
