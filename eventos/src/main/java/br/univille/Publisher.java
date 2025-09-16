@@ -3,6 +3,7 @@ package br.univille;
 import com.azure.identity.DefaultAzureCredential;
 import com.azure.identity.DefaultAzureCredentialBuilder;
 import com.azure.messaging.servicebus.ServiceBusClientBuilder;
+import com.azure.messaging.servicebus.ServiceBusMessage;
 import com.azure.messaging.servicebus.ServiceBusSenderClient;
 
 public class Publisher {
@@ -11,13 +12,16 @@ public class Publisher {
         var topicName = "topic-das1-a";
         
 
-        DefaultAzureCredential credential = new DefaultAzureCredentialBuilder().build();
+        // DefaultAzureCredential credential = new DefaultAzureCredentialBuilder().build();
 
+        String chave = System.getenv("CHAVE");
         ServiceBusSenderClient senderClient = new ServiceBusClientBuilder()
             .fullyQualifiedNamespace(servidor)
-            .credential(credential)
+            // .credential(credential)
+            .connectionString(chave)
             .sender()
             .topicName(topicName)
             .buildClient();
+            senderClient.sendMessage(new ServiceBusMessage("João Binelo é os guri"));
     }
 }
