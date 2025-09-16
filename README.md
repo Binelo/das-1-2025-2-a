@@ -42,3 +42,4 @@ Para o arquiteto, é mais importante o meio e o topo da pirâmide, que represent
 #compensações / trade-off
 -Tópicos: grupo da familia do zap, tipo um observer, sistema distribuído, 1 para muitos, broker de msg
 
+## 15/09
