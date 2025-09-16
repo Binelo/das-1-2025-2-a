@@ -4,6 +4,8 @@ import javax.swing.table.AbstractTableModel;
 
 public class ModeloTabela extends AbstractTableModel{
 
+
+    
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex) {
         
@@ -22,7 +24,7 @@ public class ModeloTabela extends AbstractTableModel{
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        return "Node lindo";
+        return "Java lindo";
     }
 
 }

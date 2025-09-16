@@ -23,11 +23,12 @@ public class Janelinha3 extends JFrame{
         setLayout(new FlowLayout());
 
         painel.setBorder(new LineBorder(Color.BLACK));
-        painel.setBorder(new TitledBorder("Titulo"));
+        painel.setBorder(new TitledBorder("TITULO"));
 
         add(painel);
 
         setVisible(true);
+        
     }
     public static void main(String[] args) {
         new Janelinha3();

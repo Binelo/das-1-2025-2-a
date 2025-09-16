@@ -1,6 +1,7 @@
 package br.univille.singleton;
 
 public class Singleton {
+    //variavel global
     private static Singleton instance;
     private String segredo;
 

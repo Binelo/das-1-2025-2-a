@@ -14,7 +14,7 @@ public class Janelinha extends JFrame{
     private Controlador controlador;
 
     public Janelinha() {
-        String titulo = "Eu não acredito";
+        String titulo = "Eu nao acredito";
         setTitle(titulo);
         setSize(500,500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -23,6 +23,13 @@ public class Janelinha extends JFrame{
         controlador = new Controlador();
         botaozinho.addActionListener(controlador);
         botaozinho.addMouseMotionListener(controlador);
+
+        /*botaozinho.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(null,"oi");
+            }
+        });*/
         
         add(botaozinho);
 

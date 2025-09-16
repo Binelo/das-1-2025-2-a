@@ -231,4 +231,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-secrets.json	
+secrets.json
